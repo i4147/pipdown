@@ -1,0 +1,5 @@
+# Example input file for: pipdown -i requirements.txt
+# One requirement per line; blank lines and # comments are ignored.
+six==1.16.0
+idna==3.7
+requests==2.32.3
