@@ -59,7 +59,16 @@ lib/
 lib64/
 nosetests.xml
 out/
-output/
+# The requested deliverable lives in output/ and is tracked.
+# Ignore runtime download artifacts if the CLI is run from output/.
+/output/*.tar.gz
+/output/*.zip
+/output/*.tar.bz2
+/output/*.whl
+/output/*.part
+/output/.pytest_cache/
+/output/.mypy_cache/
+/output/.ruff_cache/
 parts/
 pip-wheel-metadata/
 profile_default/

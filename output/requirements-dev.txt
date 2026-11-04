@@ -1,0 +1,6 @@
+-r requirements.txt
+-r requirements-backends.txt
+pytest>=8.0
+mypy>=1.10
+ruff>=0.6
+types-requests>=2.31
